@@ -29,6 +29,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.input.KeyboardType
 import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
@@ -72,9 +73,9 @@ private fun MyUI (){
     ){
         Text(
             text = "Login",
-            fontSize = 24.sp,
-            //color = MaterialTheme.colors.primary,
-            color = MaterialTheme.colorScheme.primary,
+            fontSize = 30.sp,
+            color = Color(0xFF673AB7),
+            //color = MaterialTheme.colorScheme.primary,
             textAlign = TextAlign.Left,
             modifier = Modifier
                 .fillMaxWidth()
@@ -114,8 +115,10 @@ private fun MyUI (){
         Button(
             onClick = { /* Handle submit button click */ },
             modifier = Modifier.fillMaxWidth(),
+
         ) {
             Text(text = "Submit")
+
         }
        }
     }
