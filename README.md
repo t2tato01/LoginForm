@@ -2,6 +2,10 @@
 
 This Android app implements a simple login form user interface (UI) without actual functionality for validating or executing logins. It provides basic fields for entering a username and password.
 
+
+![Screenshot](ScreenshotLogin.png)
+
+
 ## Features
 - Basic UI for a login form with required fields
 - Proper keyboard options for email and password text fields
